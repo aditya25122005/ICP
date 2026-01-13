@@ -6,7 +6,7 @@ import java.util.List;
 public class online_stock_span {
     public static void main(String[] args) {
         online_stock_span obj= new online_stock_span();
-        int param_1=obj.next(0)
+        
     }
     List<Integer> ll;
     public online_stock_span() {
