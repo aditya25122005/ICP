@@ -9,6 +9,7 @@ public class next_greater_element {
         int [] ans= nextGreaterElement(nums1, nums2);
         for(int num:ans) System.out.print(num+" ");
     }
+    
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int [] ans= new int[nums1.length];
         HashMap<Integer,Integer> map= new HashMap<>(); // for storing next greater

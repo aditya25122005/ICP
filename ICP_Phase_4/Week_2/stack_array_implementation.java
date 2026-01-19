@@ -9,7 +9,6 @@ public class stack_array_implementation {
             arr= new int[size];  // constructor
             curr=-1;
         }
-
         public  void push(int val){
             if(curr==arr.length-1){
                 System.out.println("Stack is Full");

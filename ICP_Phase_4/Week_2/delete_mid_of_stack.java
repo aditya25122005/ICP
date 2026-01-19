@@ -16,6 +16,7 @@ public class delete_mid_of_stack {
         }
 
     }
+    
     public static void Solve(Stack<Integer> st, int size){
         
         int curr=0;

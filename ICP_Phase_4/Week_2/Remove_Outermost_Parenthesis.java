@@ -26,6 +26,5 @@ public class Remove_Outermost_Parenthesis {
             }
         }
         return sb.toString();
-
     }
 }

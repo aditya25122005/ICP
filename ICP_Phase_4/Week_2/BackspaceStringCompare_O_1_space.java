@@ -6,6 +6,7 @@ public class BackspaceStringCompare_O_1_space {
         String t="ad#c";
         System.out.println(backspaceCompare(s, t));
     }
+    
     public static boolean backspaceCompare(String s, String t) {
         int c1=0;
         int c2=0;

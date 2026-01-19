@@ -34,6 +34,7 @@ public class MinStack {
         
     }
     
+    
     public int top() {
         return ll.get(ll.size()-1);
     }

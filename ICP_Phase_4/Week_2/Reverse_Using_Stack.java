@@ -6,6 +6,7 @@ public class Reverse_Using_Stack {
     public static void main(String[] args) {
         System.out.println(reverse("GeeksforGeeks"));
     }
+    
     public static String reverse(String s) {
         // code here
         Stack<Character> st= new Stack<>();

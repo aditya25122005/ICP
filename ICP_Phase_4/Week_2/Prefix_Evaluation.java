@@ -13,7 +13,6 @@ public class Prefix_Evaluation {
             }
             else{
                 st.push(str);
-             
                 while(st.size()>=3 &&!isOpr(st.peek()) && !isOpr(st.get(st.size()-2)) && isOpr(st.get(st.size()-3))){
                     int a= Integer.parseInt(st.pop());
                     int b= Integer.parseInt(st.pop());

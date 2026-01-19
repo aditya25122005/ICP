@@ -7,6 +7,7 @@ public class Baseball_Game {
         String[] operations={"5","2","C","D","+"};
         System.out.println(calPoints(operations));
     }
+    
     public static int calPoints(String[] operations) {
         Stack<Integer> st= new Stack<>();
         for(String str:operations){

@@ -9,6 +9,7 @@ public class stack_implementation_LinkedList {
             this.next=null;
         }
     }
+    
     private ListNode top;
 
     // constructor

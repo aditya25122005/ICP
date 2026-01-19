@@ -7,6 +7,7 @@ public class valid_parenthesis {
         String s = "()[]{}";
         System.out.println(isValid(s));
     }
+    
     public static boolean isValid(String s) {
         Stack<Character> st= new Stack<>();
         for(char ch:s.toCharArray()){
@@ -36,5 +37,6 @@ public class valid_parenthesis {
             return true;
         }
         return false;
+
     }
 }
