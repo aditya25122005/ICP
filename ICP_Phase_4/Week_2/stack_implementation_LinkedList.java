@@ -42,6 +42,7 @@ public class stack_implementation_LinkedList {
         return top==null;
     }
 
+
     public static void main(String[] args) {
         stack_implementation_LinkedList st= new stack_implementation_LinkedList();
         st.push(10);
